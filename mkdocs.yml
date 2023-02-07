@@ -90,7 +90,8 @@ plugins:
   - mkdocs-jupyter:
       execute: true
       ignore: [
-        "notebooks/01.06-Errors-and-Debugging.ipynb"
+        "notebooks/01.06-Errors-and-Debugging.ipynb",
+        "notebooks/01.07-Timing-and-Profiling.ipynb"
       ]
 # Hooks
 hooks:
