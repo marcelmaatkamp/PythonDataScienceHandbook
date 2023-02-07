@@ -33,7 +33,7 @@ See [Index.ipynb](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHa
 
 The code in the book was tested with Python 3.5, though most (but not all) will also work correctly with Python 2.7 and other older Python versions.
 
-The packages I used to run the code in the book are listed in [requirements.txt](requirements.txt) (Note that some of these exact version numbers may not be available on your platform: you may have to tweak them for your own use).
+The packages I used to run the code in the book are listed in [requirements.txt](requirements.in) (Note that some of these exact version numbers may not be available on your platform: you may have to tweak them for your own use).
 To install the requirements using [conda](http://conda.pydata.org), run the following at the command-line:
 
 ```

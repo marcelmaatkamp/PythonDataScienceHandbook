@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+pillow
+matplotlib
+seaborn
+jupyter
+notebook==6.5.2
+line_profiler
+memory_profiler
+numexpr
+pandas-datareader
+netcdf4
+mkdocs-jupiter
