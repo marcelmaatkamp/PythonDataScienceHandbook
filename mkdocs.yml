@@ -91,7 +91,8 @@ plugins:
       execute: true
       ignore: [
         "notebooks/01.06-Errors-and-Debugging.ipynb",
-        "notebooks/01.07-Timing-and-Profiling.ipynb"
+        "notebooks/01.07-Timing-and-Profiling.ipynb",
+        "notebooks/06.00-Figure-Code.ipynb" # 'application/vnd.jupyter.widget-state+json'
       ]
 # Hooks
 hooks:
