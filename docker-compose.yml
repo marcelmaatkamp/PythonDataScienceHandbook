@@ -19,12 +19,12 @@ services:
       context: .
       args:
         MKDOCS_MATERIAL_VERSION: ${MKDOCS_MATERIAL_VERSION}
-    command: gh-deploy
     ports:
       - 8000:8000
     volumes:
       - .:/home/jovyan/docs
       - ./mkdocs.yml:/home/jovyan/mkdocs.yml
+      - ./README.md:/home/jovyan/docs/README.md
       - ./.git:/home/jovyan/.git
       - ~/.ssh/known_hosts:/home/jovyan/.ssh/known_hosts
       - ~/.ssh/id_rsa:/home/jovyan/.ssh/id_rsa:ro
