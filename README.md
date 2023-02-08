@@ -1,4 +1,5 @@
-# Python Data Science Handbook (updated examples)
+# Python Data Science Handbook 
+(Made compatible with Jupyter Notebook v6.5.2 and updated examples)
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)

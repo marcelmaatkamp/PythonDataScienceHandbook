@@ -19,14 +19,16 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Python DataScience Handbook (updated version)
+site_name: >-
+  Python DataScience Handbook
+  (updated version)
 site_url: https://marcelmaatkamp.github.io/PythonDataScienceHandbook
 site_author: Copyright &copy; Jake Vanderplas
 site_description: >-
   This repository contains the entire Python Data Science Handbook,
   in the form of (free!) Jupyter notebooks.
 
-  This repo is a fork of jakevdp/PythonDataScienceHandbook with
+  * This repo is a fork of jakevdp/PythonDataScienceHandbook with
   updated examples
 
 # Repository
@@ -47,7 +49,7 @@ theme:
     - content.code.copy
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
+    - header.autohide
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
