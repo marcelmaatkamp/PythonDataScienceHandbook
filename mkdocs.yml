@@ -19,9 +19,9 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
+site_name: Python DataScience Handbook (updated version)
 site_url: https://marcelmaatkamp.github.io/PythonDataScienceHandbook
-site_author: Martin Donath
+site_author: Copyright &copy; Jake Vanderplas
 site_description: >-
   This repository contains the entire Python Data Science Handbook,
   in the form of (free!) Jupyter notebooks.
@@ -40,7 +40,7 @@ theme:
   name: material
   custom_dir: material/.overrides
   features:
-    # - announce.dismiss
+    - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
@@ -105,19 +105,6 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
 
 # Extensions
 markdown_extensions:
