@@ -13,4 +13,4 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
-mkdocs-jupiter
+mkdocs-jupyter
