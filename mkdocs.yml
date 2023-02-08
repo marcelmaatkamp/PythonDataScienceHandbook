@@ -159,7 +159,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: README.md
   - PythonDataScienceHandbook: notebooks/00.00-Preface.ipynb
   - Chapter 1:
     - notebooks/01.00-IPython-Beyond-Normal-Python.ipynb
