@@ -19,7 +19,6 @@ services:
       context: .
       args:
         MKDOCS_MATERIAL_VERSION: ${MKDOCS_MATERIAL_VERSION}
-    command: gh-deploy
     ports:
       - 8000:8000
     volumes:
