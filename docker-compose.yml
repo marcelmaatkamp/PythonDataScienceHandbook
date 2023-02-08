@@ -27,4 +27,4 @@ services:
       - ./mkdocs.yml:/home/jovyan/mkdocs.yml
       - ./.git:/home/jovyan/.git
       - ~/.ssh/known_hosts:/home/jovyan/.ssh/known_hosts
-      - ${RSA_PRIVATE_KEY_LOCATION}:/home/jovyan/.ssh/id_rsa:ro
+      - ~/.ssh/id_rsa:/home/jovyan/.ssh/id_rsa:ro
