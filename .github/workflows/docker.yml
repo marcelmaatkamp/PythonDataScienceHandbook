@@ -35,7 +35,6 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           build-args: |
-            JUPYTER_VERSION=${{ vars.JUPYTER_VERSION }}
             MKDOCS_MATERIAL_VERSION=${{ vars.MKDOCS_MATERIAL_VERSION }}
           push: true
           tags: |
