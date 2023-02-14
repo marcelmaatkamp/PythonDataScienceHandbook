@@ -41,10 +41,10 @@ jobs:
             MKDOCS_MATERIAL_VERSION=${{ vars.MKDOCS_MATERIAL_VERSION }}
           push: true
           tags: |
-            ${REPO}:${{ vars.MKDOCS_MATERIAL_VERSION }}
-            ${REPO}:latest
-            ghcr.io/${REPO}:${{ vars.MKDOCS_MATERIAL_VERSION }}
-            ghcr.io/${REPO}:latest
+            ${{REPO}}:${{ vars.MKDOCS_MATERIAL_VERSION }}
+            ${{REPO}}:latest
+            ghcr.io/${{REPO}}:${{ vars.MKDOCS_MATERIAL_VERSION }}
+            ghcr.io/${{REPO}}:latest
       - name: Sync readme.md to docker hub
         uses: ms-jpq/sync-dockerhub-readme@v1
         with:
