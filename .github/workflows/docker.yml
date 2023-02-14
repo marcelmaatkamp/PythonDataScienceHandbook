@@ -9,7 +9,7 @@ jobs:
 
   docker:
     runs-on: ubuntu-latest
-    environment: Variables
+    environment: production
     steps:
       - name: Checkout sourcecode 
         uses: actions/checkout@v3
